@@ -1,6 +1,6 @@
 {
   "project_slug": "script-name",
-  "file_name": "manager",
+  "file_name": "manage",
   "src_file_name": "cli",
   "src_main_fn": "cli"
 }
