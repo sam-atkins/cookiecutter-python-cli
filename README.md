@@ -5,14 +5,8 @@
 - Navigate to the parent folder where you want to create the new project
 - Run this command:
 
-```
-cookiecutter https://github.com/cubiio/cookiecutter-simple-python-script
+```bash
+cookiecutter https://github.com/sam-atkins/cookiecutter-python-cli
 ```
 
-To complete set-up:
-
-- `cd` into the newly created project
-- git init
-- create a virtual env `python3 -m venv env`
-- activate the virtual env `source env/bin/activate`
-- install dependencies `poetry install`
+Then  `cd` into the newly created project.
