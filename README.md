@@ -1,9 +1,6 @@
-# Cookiecutter: Simple PyProject
+# Cookiecutter: Python CLI app
 
-## How to use
-
-- Navigate to the parent folder where you want to create the new project
-- Run this command:
+Navigate to the parent folder where you want to create the new project and run this command
 
 ```bash
 cookiecutter https://github.com/sam-atkins/cookiecutter-python-cli
