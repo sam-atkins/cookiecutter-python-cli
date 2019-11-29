@@ -5,7 +5,7 @@ description = "."
 authors = ["Sam Atkins <samatkins@outlook.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^{{cookiecutter.python_version}}"
 click = "^7.0"
 
 [tool.poetry.dev-dependencies]
