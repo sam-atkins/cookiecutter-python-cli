@@ -4,7 +4,8 @@
 
 - [{{cookiecutter.project_name}}](#cookiecutterprojectname)
   - [Usage](#usage)
-  - [Install](#install)
+  - [Dev Install](#dev-install)
+  - [Global Install](#global-install)
 
 ## Usage
 
@@ -12,7 +13,7 @@
 {{cookiecutter.project_name}} --help
 ```
 
-## Install
+## Dev Install
 
 ```bash
 # create a venv
@@ -25,10 +26,10 @@ source venv/bin/activate
 poetry install
 ```
 
-After the install command, not only will the dependencies be installed but the script will be enabled to run from the project root directory.
+## Global Install
 
-To setup the script to run from any directory, run this in your home directory:
+To use the CLI app globally, use `pipx` to install in an isolated environment. Refer to the [pipx docs](https://pipxproject.github.io/pipx/) for more info.
 
-```
-pip3 install --editable /Users/{username}/path/to/{{cookiecutter.project_name}}
+```bash
+pipx install git+https://github.com/<user-name>/{{cookiecutter.project_name}}
 ```
